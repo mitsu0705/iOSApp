@@ -2,6 +2,7 @@
 
 - ファイル構成
 SwiftTimer
+CalcApp
 
 
 
