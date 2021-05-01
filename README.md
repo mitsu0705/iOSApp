@@ -3,7 +3,7 @@
 - ファイル構成
 SwiftTimer
 CalcApp
-
+Swift5KeyBorard
 
 
 画像を反映させる
@@ -12,3 +12,10 @@ CalcApp
 ・ViewImageを画面に追加、表示されている文言を削除してから、右側のプロパティ内のImageから任意の画像を選択
 
 メソッドを#selectorを用いて呼ぶ場合、 "" @objc func メソッド名""と宣言する
+
+//キーボードでリターンを押したとき、閉じる
+    func textFieldShouldReturn(_ textFierd: UITextField) -> Bool {
+        //キーボードが閉じる
+        textFierd.resignFirstResponder()
+        return true
+    }
